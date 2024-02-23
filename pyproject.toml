@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "MortalKombat3Env"
+version = "0.0"
+description = "Multiplayer and Single Player Stable-Retro Environment for Ultimate Mortal Kombat 3"
+readme = "README.md"
+license = { file = "LICENSE" }
+urls = { homepage = "https://github.com/YS-RAPTOR/MortalKombat3Env" }
+requires-python = ">=3.10"
+dependencies = ["stable-retro==0.9.2"]
